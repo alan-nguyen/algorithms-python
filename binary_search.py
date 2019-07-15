@@ -3,7 +3,7 @@ def binary_search(list, item):
     low = 0
     high = len(list) - 1
 
-    #While you haven't narrowed it down to one element
+    # While you haven't narrowed it down to one element
     while low <= high:
         # check the middle element
         mid = (low + high) // 2
