@@ -9,9 +9,10 @@ def find_smallest(arr):
         if arr[i] < smallest:
             smallest_index = i
             smallest = arr[i]
-        return smallest_index
+    return smallest_index
 
-def selection_sort(arr)
+
+def selection_sort(arr):
     """ Sort array """
     new_array = []
     for i in range(len(arr)):
@@ -19,5 +20,6 @@ def selection_sort(arr)
         smallest = find_smallest(arr)
         new_array.append(arr.pop(smallest))
     return new_array
+
 
 print(selection_sort([4, 1, 6, 18, 9, 20]))
