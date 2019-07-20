@@ -13,4 +13,5 @@ def quicksot(array):
         return quicksot(less) + [pivot] + quicksot(greater)
 
 
-
+# test case
+print(quicksot([9, 3, 12, 0, 200]))
