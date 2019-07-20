@@ -1,5 +1,5 @@
 def sum_alan(arr):
-    """ Define sum function """
+    """ Define sum function using for loop """
     total = 0
     for x in arr:
         total += x
