@@ -10,8 +10,8 @@ def max_r(list):
 
 
 # test case
-print(max_r([1, 0, 9, 20, 100])) # Should be 100
+print(max_r([1, 0, 9, 20, 100]))  # Should be 100
 
-print(max_r([])) # Should be None
+print(max_r([]))  # Should be None
 
-print(max_r([10])) # Should be 10
+print(max_r([10]))  # Should be 10
