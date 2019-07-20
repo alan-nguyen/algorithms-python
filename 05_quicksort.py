@@ -1,7 +1,7 @@
-def quicksot(array):
+def quicksort(array):
     """ Quick sort algorithm """
     # base case, array with 0 or 1 element are already sorted
-    if len(arrar) < 2:
+    if len(array) < 2:
         return array
     # recursive case
     else:
@@ -10,8 +10,8 @@ def quicksot(array):
         less = [i for i in array[1:] if i <= pivot]
         # sub-array of all the elements greater than the pivot
         greater = [i for i in array[1:] if i > pivot]
-        return quicksot(less) + [pivot] + quicksot(greater)
+        return quicksort(less) + [pivot] + quicksort(greater)
 
 
 # test case
-print(quicksot([9, 3, 12, 0, 200]))
+print(quicksort([9, 3, 12, 0, 200]))
